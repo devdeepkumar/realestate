@@ -289,6 +289,24 @@
     }
 }
 
+@media (max-width:1246px) {
+    .Benefits-Lists {
+        font-size: 16px;
+    }
+    .card-div span{
+        font-size: 13px;
+    }
+    .card-div p{
+        font-size: 11px;
+    }
+    .right_block .date-and-time {
+        font-size: 12.4px;
+    }
+    .people_joined_right{
+        font-size: 9px;
+    }
+}
+
 @media (max-width:991px) {
 
     #hero h1 {

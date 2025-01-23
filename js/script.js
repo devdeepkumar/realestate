@@ -353,7 +353,7 @@ document.querySelectorAll(".pagination-btn").forEach((button) => {
 ==========================================
 */
 
-const whoSection = document.getElementById("who-2");
+const whoSection = document.getElementById("mainForm");
 const stickyDiv = document.getElementById("stickyDiv");
 
 let lastScrollY = window.scrollY;
@@ -368,7 +368,7 @@ const observer = new IntersectionObserver(
         stickyDiv.style.top = "-628px";
       } else if (!entry.isIntersecting && !scrollingDown) {
         stickyDiv.style.position = "fixed";
-        stickyDiv.style.top = "95px";
+        stickyDiv.style.top = "100px";
       }
 
       lastScrollY = currentScrollY;
@@ -376,7 +376,7 @@ const observer = new IntersectionObserver(
   },
   {
     root: null,
-    threshold: 0.92,
+    threshold: 0.65,
   }
 );
 
