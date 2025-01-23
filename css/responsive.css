@@ -295,12 +295,7 @@
     .Benefits-Lists {
         font-size: 16px;
     }
-    .card-div span{
-        font-size: 13px;
-    }
-    .card-div p{
-        font-size: 11px;
-    }
+    
     .right_block .date-and-time {
         font-size: 12.4px;
     }
@@ -461,6 +456,10 @@
 
     .right-area {
         width: 100%;
+       
+    }
+    .left-area{
+         margin-block: 20px;
     }
 
 
@@ -714,6 +713,11 @@
     .first-right img {
         width: 75%
     }
+   
+    .benefits_grid_list{
+        column-gap: 10px;
+    }
+   
 }
 
 @keyframes slideIn {
