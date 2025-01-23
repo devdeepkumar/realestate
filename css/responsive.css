@@ -290,6 +290,9 @@
 }
 
 @media (max-width:1246px) {
+    .brown_heading{
+        /* font-size: 36px; */
+    }
     .Benefits-Lists {
         font-size: 16px;
     }
