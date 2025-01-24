@@ -719,6 +719,9 @@
     .benefits_grid_list{
         column-gap: 10px;
     }
+    .register_mobile .right_register{
+        padding: 6px 10px;
+    }
    
 }
 
