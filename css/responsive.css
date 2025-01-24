@@ -675,7 +675,9 @@
         padding-inline: 24px;
     }
 
-
+    .card-div{
+        padding: 25px;
+    }
 
 
 }
