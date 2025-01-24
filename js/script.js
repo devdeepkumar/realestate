@@ -73,7 +73,10 @@ document.querySelectorAll('.btn-read-more').forEach(link => {
       });
 
       // Toggle link text
-      this.textContent = (this.textContent === 'Read More.') ? 'Read Less' : 'Read More.';
+
+    
+        this.textContent =
+          this.textContent === "Read More" ? "Read Less" : "Read More";
   });
 });
 
